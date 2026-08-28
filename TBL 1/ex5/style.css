@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
+}
+
+.header {
+    height: 12vh;
+    background-color: #1e293b;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 3vw;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.dashboard {
+    min-height: 88vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.menu {
+    background-color: #334155;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 25px 15px;
+    color: white;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #475569;
+}
+
+.conteudo {
+    padding: 30px;
+}
+
+.conteudo h2 {
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.vendas {
+    background-color: #2563eb;
+}
+
+.usuarios {
+    background-color: #16a34a;
+}
+
+.pedidos {
+    background-color: #9333ea;
+}
+
+.estoque {
+    background-color: #ea580c;
+}
+
+.financeiro {
+    background-color: #0891b2;
+}
+
+.alertas {
+    background-color: #dc2626;
+}
+
+@media (max-width: 767px) {
+
+    .header {
+        height: auto;
+        min-height: 80px;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .dashboard {
+        display: block;
+        min-height: auto;
+    }
+
+    .menu {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 15px;
+        gap: 8px;
+    }
+
+    .menu a {
+        padding: 10px 12px;
+    }
+
+    .conteudo {
+        padding: 20px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .card {
+        min-height: 160px;
+    }
+}
+

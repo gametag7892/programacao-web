@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+}
+
+p{
+    color: blueviolet;
+}
+
+h1{
+    color: cadetblue;
+}
+
+section{
+    padding: 10px;
+}
+
+nav{
+    display: flexbox;
+}

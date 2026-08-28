@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    display: grid;
+    width: 250px;
+    text-align: justify;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media (max-width: 750px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 20px;
+    }
+    .card{
+        display: grid;
+        width: 250px;
+        text-align: justify;
+        border: 2px solid;
+        border-color: black;
+        border-radius: 10px;
+        padding: 20px;
+    }
+}

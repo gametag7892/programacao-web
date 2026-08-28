@@ -1,0 +1,20 @@
+Questão 1 - 
+
+a) Qual a diferença entre selecionar por tag, por classe e por id?
+
+R: Selecionar por tag modifica as propriedades de estilo da respectiva tag HTML, por classe é modificado somente os elementos HTML da classe que você chamou e o id segue a mesma lógica da classe 
+(obs.: não é boa pratica utilizar id como igual se utiliza a classe, apesar da similaridade no comportamento).
+
+b) Quando é mais adequado usar classe em vez de id?
+
+R: Para modificar o estilo de múltiplos elementos, o ideal é utilizar a classe (por questões de boa pratica).
+
+c) O que acontece se dois elementos tiverem o mesmo id?
+
+R: As modificações do estilo são aplicadas para os dois elementos com o mesmo id (assim como na classe).
+
+Questão 2 - Explique Diferença de :
+
+a) Margin e Padding
+
+R: Margin é o espaço definido em volta do elemento HTML e padding é o espaço definido dentro de um elemento HTML.
