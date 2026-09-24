@@ -1,0 +1,16 @@
+{
+  "name": "tbl-2",
+  "version": "1.0.0",
+  "description": "TBL da aula 2",
+  "license": "ISC",
+  "author": "Eduardo Soares Mota",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  }
+}
