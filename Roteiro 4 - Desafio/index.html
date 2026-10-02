@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Social</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>X</h1>
+        <div class="nav-links">
+            <a href="#" class="especial">Início</a>
+            <a href="#" class="especial">Sobre</a>
+            <a href="#" class="especial">Descubra</a>
+        </div>
+        <button id="btn-dark-mode">🌙</button>
+    </nav>
+
+    <main class="container">
+        <div class="stories">
+            <div class="cards">
+                <div class="card add_stories">
+                    <img alt="Adicionar" src="images (1).png" class="story-img add-icon">
+                </div>
+                <div class="card">
+                    <img alt="Story" src="images.jpg" class="story-img">
+                </div>
+                <div class="card">
+                    <img alt="Story" src="images (1).jpg" class="story-img">
+                </div>
+                <div class="card">
+                    <img alt="Story" src="images (2).jpg" class="story-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="social">
+            <div class="free">
+                <img alt="Seu Perfil" src="images.png" class="avatar">
+                <input class="input_free_text" id="post-input" type="text" placeholder="O que está acontecendo?">
+                <button id="btn-postar">Postar</button>
+            </div>
+
+            <div id="feed" class="social_block">
+                <div class="profile post">
+                    <div class="post-header">
+                        <img alt="Perfil" src="images.png" class="avatar">
+                        <strong>Usuário Anônimo</strong>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis molestiae, nostrum beatae, exercitationem quisquam repudiandae hic itaque tenetur possimus id unde est porro quo debitis dolorum mollitia nam, voluptas facere?</p>
+                    <div class="post-actions">
+                        <button class="btn-like">🤍 Curtir <span class="like-count">0</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
