@@ -1,32 +1,72 @@
-body{
-    background-color: antiquewhite;
-    font-family:'Courier New', Courier, monospace;
-}
-
-.card{
-    margin: 0 auto;
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
     padding: 20px;
-    text-align: justify;
-    height: 400px;
-    width: 400px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 20px;
 }
 
-.btn_ver{
-    background-color: black;
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.perfil {
+    width: 450px;
+    padding: 30px;
+    margin: 30px auto;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: block; 
+}
+
+.perfil h2 {
+    color: #2980b9;
+    margin-top: 0;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+.apresentacao {
+    color: #555555;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.secao-tecnologias {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    margin: 20px 0;
+}
+
+.secao-tecnologias h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.tecnologia {
+    color: #34495e;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.link-contato {
+    display: inline-block; 
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3498db;
     color: white;
-    border-style: none;
+    text-decoration: none;
     border-radius: 5px;
-    width: 100px;
-    height: 30px;
+    font-weight: bold;
 }
 
-.destaque{
-    font: bolder;
-    color: red;
+.link-contato:hover {
+    background-color: #e74c3c; 
+    color: #fff;
 }
